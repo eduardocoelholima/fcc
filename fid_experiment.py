@@ -256,10 +256,10 @@ def main():
     # tiny_c10_inception_distance(trainset, features_cifar10, extracted_features)
     # c10_tiny_inception_distance(features_cifar10, extracted_features, tiny_metadata)
     # tiny_c10_dinov3_distance(trainset, dino_features_cifar10, tiny_dino_extracted_features)
-    c10_tiny_dinov3_distance(dino_features_cifar10, tiny_dino_extracted_features, tiny_metadata)
+    # c10_tiny_dinov3_distance(dino_features_cifar10, tiny_dino_extracted_features, tiny_metadata)
     # tiny_c100_inception_distance(trainset100, features_cifar100, extracted_features)
     # c100_tiny_inception_distance(features_cifar10, extracted_features, tiny_metadata)
     # tiny_c100_dinov3_distance(trainset100, dino_features_cifar100, tiny_dino_extracted_features)
-    # c100_tiny_dinov3_distance(dino_features_cifar100, tiny_dino_extracted_features, tiny_metadata)
+    c100_tiny_dinov3_distance(dino_features_cifar100, tiny_dino_extracted_features, tiny_metadata)
 
 main()
